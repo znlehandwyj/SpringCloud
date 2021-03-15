@@ -90,7 +90,7 @@
 
 
 	<modules>
-		<module>microservicecloud-api</module>
+		<module>miroservicecloud-common</module>
 	</modules>
 </project>
 

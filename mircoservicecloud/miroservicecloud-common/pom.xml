@@ -5,6 +5,5 @@
     <artifactId>microservicecloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  <artifactId>microservicecloud-api</artifactId>
+  <artifactId>miroservicecloud-common</artifactId>
 </project>
