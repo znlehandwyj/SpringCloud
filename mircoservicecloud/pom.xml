@@ -92,6 +92,7 @@
 	<modules>
 		<module>miroservicecloud-common</module>
 		<module>microservicecloud-provider-dept-8001</module>
+		<module>microservicecloud-provide-dept-8001</module>
 	</modules>
 </project>
 
