@@ -4,8 +4,12 @@ spring:
  application:
   name: microservicecloud-dept
  datasource:
-  type: com.alibaba.druid.pool.DruidDataSource            # µ±Ç°Êı¾İÔ´²Ù×÷ÀàĞÍ
-  driver-class-name: com.mysql.jdbc.Driver               # mysqlÇı¶¯°ü
-  url: jdbc:mysql://localhost:3306/clouddb01              # Êı¾İ¿âÃû³Æ
+  type: com.alibaba.druid.pool.DruidDataSource            # ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  driver-class-name: com.mysql.jdbc.Driver               # mysqlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  url: jdbc:mysql://localhost:3306/clouddb01              # ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½
   username: root
   password: march8th
+eureka:
+ client: 
+  service-url: #å®¢æˆ·ç«¯æ³¨å†ŒeurekaæœåŠ¡åˆ—è¡¨å†…
+   defaultZone: http://127.0.0.1:7001/eureka
