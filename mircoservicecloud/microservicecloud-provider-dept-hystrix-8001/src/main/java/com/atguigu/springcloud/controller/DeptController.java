@@ -20,7 +20,9 @@ public class DeptController {
 	@HystrixCommand(fallbackMethod = "processHystrix_Get")
 	public Dept get(@PathVariable("id") Long id) {
 		Dept dept = null;// 正常情况下这里会返回一个数据
-		if( null == dept) { //这里故意返回 一个null。为了测试histrix
+		if(id == 1L) {
+			dept = new Dept(1L,"张三","db1");
+		}else if( null == dept) { //这里故意返回 一个null。为了测试histrix
 			throw new RuntimeException("该ID：" + id + "没有对应的信息！" );
 		}
 		return dept;
